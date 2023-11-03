@@ -1,0 +1,101 @@
+body{
+    background-color: #212121;
+    font-family: sans-serif;
+}
+.first-title{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(228, 228, 228);
+}
+.second-title{
+    font-size: 25px;
+    margin-top: 15px;
+    color: rgb(228, 228, 228);
+    text-align: center;
+}
+.holder{
+    height: 70vh;
+    width: 20vw;
+    background-color: gray;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 20vw;
+    padding: 20px 1px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+    border-radius: 10px;
+    background-color: #6B6ECC;
+    background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+    height: 70vh;
+    transition: transform 0.3s ease;
+  }
+.third-title{
+    font-size: x-large;
+    margin-bottom: 40px;
+    color: rgb(216, 216, 216);
+}
+.text{
+    color: whitesmoke;
+}
+.plan-holder-workout{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    bottom: 30vw;
+
+}
+.container{
+    position: relative;
+    bottom: 20vw;
+    padding: 100px;
+}
+.plan-holder-diet{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    bottom: 30vw;
+    left: 70px;
+    
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.plan-holder{
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+.plan-holder:hover{
+    transform: scale(1.1) translateX(5px);
+}
+.img{
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+.img:hover{
+    transform: scale(1.1) translateX(5px);
+}
+.card:hover{
+    transform: scale(1.1) translateX(5px);
+}
+.fourth-title{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(228, 228, 228);
+
+}
